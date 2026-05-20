@@ -1,0 +1,4 @@
+
+Unexpected element '2'
+Caused by (or after):
+LINE 3:CONST FOOBAR = NOT 2E+0,2! 2

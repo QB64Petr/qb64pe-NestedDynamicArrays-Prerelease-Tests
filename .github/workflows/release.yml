@@ -1,0 +1,11 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    uses: ./.github/workflows/build-process.yml
+    secrets: inherit

@@ -1,0 +1,4 @@
+
+Unexpected element 'UNDEFINED'
+Caused by (or after):
+LINE 3:CONST FOOBAR = UNDEFINED OR 2

@@ -1,0 +1,4 @@
+
+Unexpected element 'OR'
+Caused by (or after):
+LINE 3:CONST FOOBAR = OR

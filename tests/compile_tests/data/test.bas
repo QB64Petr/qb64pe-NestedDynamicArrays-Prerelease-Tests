@@ -1,0 +1,12 @@
+$CONSOLE
+$SCREENHIDE
+_DEST _CONSOLE
+
+FOR i& = 1 TO 6
+  READ a&
+  PRINT a&;
+NEXT
+
+SYSTEM
+
+DATA 1, 2, 3, 4, 5, 6

@@ -1,0 +1,9 @@
+noformat-uc.out   -f:autoindent=0 -f:autoindentsize=4 -f:indentsubs=0 -f:autolayout=0 -f:keywordcapitals=1 -f:keywordlowercase=0
+noformat-cc.out   -f:autoindent=0 -f:autoindentsize=4 -f:indentsubs=0 -f:autolayout=0 -f:keywordcapitals=0 -f:keywordlowercase=0
+noformat-lc.out   -f:autoindent=0 -f:autoindentsize=4 -f:indentsubs=0 -f:autolayout=0 -f:keywordcapitals=0 -f:keywordlowercase=1
+indent-uc.out     -f:autoindent=1 -f:autoindentsize=4 -f:indentsubs=0 -f:autolayout=0 -f:keywordcapitals=1 -f:keywordlowercase=0
+indentsubs-cc.out -f:autoindent=1 -f:autoindentsize=4 -f:indentsubs=1 -f:autolayout=0 -f:keywordcapitals=0 -f:keywordlowercase=0
+spacing-lc.out    -f:autoindent=0 -f:autoindentsize=4 -f:indentsubs=0 -f:autolayout=1 -f:keywordcapitals=0 -f:keywordlowercase=1
+full-uc.out       -f:autoindent=1 -f:autoindentsize=4 -f:indentsubs=1 -f:autolayout=1 -f:keywordcapitals=1 -f:keywordlowercase=0
+full-cc.out       -f:autoindent=1 -f:autoindentsize=4 -f:indentsubs=1 -f:autolayout=1 -f:keywordcapitals=0 -f:keywordlowercase=0
+full-lc.out       -f:autoindent=1 -f:autoindentsize=4 -f:indentsubs=1 -f:autolayout=1 -f:keywordcapitals=0 -f:keywordlowercase=1

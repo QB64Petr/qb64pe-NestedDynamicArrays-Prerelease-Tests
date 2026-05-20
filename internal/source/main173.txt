@@ -1,0 +1,59 @@
+int16 FUNC_FREEID(int16*_FUNC_FREEID_INTEGER_HANDLE,int16*_FUNC_FREEID_INTEGER_SLOT){
+qbs *tqbs;
+ptrszint tmp_long;
+int32 tmp_fileno;
+uint32 qbs_tmp_base=qbs_tmp_list_nexti;
+uint8 *tmp_mem_static_pointer=mem_static_pointer;
+uint32 tmp_cmem_sp=cmem_sp;
+#include "data173.txt"
+mem_lock *sf_mem_lock;
+new_mem_lock();
+sf_mem_lock=mem_lock_tmp;
+sf_mem_lock->type=3;
+if (is_error_pending()) goto exit_subfunc;
+do{
+if(!qbevent)break;evnt(25811,906,"simplebuffer.bm");}while(r);
+do{
+*_FUNC_FREEID_LONG_BUF=*_FUNC_FREEID_INTEGER_HANDLE* 106 ;
+if(!qbevent)break;evnt(25811,908,"simplebuffer.bm");}while(r);
+do{
+*_FUNC_FREEID_INTEGER_FREEID= -2ll ;
+if(!qbevent)break;evnt(25811,908,"simplebuffer.bm");}while(r);
+S_36245:;
+fornext_value4252= 1 ;
+fornext_finalvalue4252= 100 ;
+fornext_step4252= 1 ;
+if (fornext_step4252<0) fornext_step_negative4252=1; else fornext_step_negative4252=0;
+if (is_error_pending()) goto fornext_error4252;
+goto fornext_entrylabel4252;
+while(1){
+fornext_value4252=fornext_step4252+(*_FUNC_FREEID_INTEGER_IDX);
+fornext_entrylabel4252:
+*_FUNC_FREEID_INTEGER_IDX=fornext_value4252;
+if (fornext_step_negative4252){
+if (fornext_value4252<fornext_finalvalue4252) break;
+}else{
+if (fornext_value4252>fornext_finalvalue4252) break;
+}
+fornext_error4252:;
+if(qbevent){evnt(25811,909,"simplebuffer.bm");if(r)goto S_36245;}
+S_36246:;
+if ((qbs_cleanup(qbs_tmp_base,-(string2l(func_mid(((qbs*)(((uint64*)(__ARRAY_STRING_SIMPLEBUFFER_ARRAY[0]))[array_check((*_FUNC_FREEID_LONG_BUF+*_FUNC_FREEID_INTEGER_SLOT)-__ARRAY_STRING_SIMPLEBUFFER_ARRAY[4],__ARRAY_STRING_SIMPLEBUFFER_ARRAY[5])])),*_FUNC_FREEID_INTEGER_IDX* 4 , 4 ,0|1))== -889275714 )))||is_error_pending()){
+if(qbevent){evnt(25811,910,"simplebuffer.bm");if(r)goto S_36246;}
+do{
+*_FUNC_FREEID_INTEGER_FREEID=*_FUNC_FREEID_INTEGER_IDX;
+if(!qbevent)break;evnt(25811,911,"simplebuffer.bm");}while(r);
+do{
+goto fornext_exit_4251;
+if(!qbevent)break;evnt(25811,911,"simplebuffer.bm");}while(r);
+}
+fornext_continue_4251:;
+}
+fornext_exit_4251:;
+exit_subfunc:;
+free_mem_lock(sf_mem_lock);
+#include "free173.txt"
+if ((tmp_mem_static_pointer>=mem_static)&&(tmp_mem_static_pointer<=mem_static_limit)) mem_static_pointer=tmp_mem_static_pointer; else mem_static_pointer=mem_static;
+cmem_sp=tmp_cmem_sp;
+return *_FUNC_FREEID_INTEGER_FREEID;
+}

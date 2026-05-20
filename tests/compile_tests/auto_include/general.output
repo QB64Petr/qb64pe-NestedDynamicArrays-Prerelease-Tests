@@ -1,0 +1,9 @@
+Prove availability of beforfirstline.bi constants:
+--------------------------------------------------
+Base of natural logarithm: 2.718281828459045 
+Seconds in day...........: 86400 
+One Gigabyte.............: 1073741824 
+
+Prove availability of afterlastline.bm functions:
+-------------------------------------------------
+Encoding a URL...........: http://w%25w.example%26.com/

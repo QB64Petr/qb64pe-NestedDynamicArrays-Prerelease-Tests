@@ -1,0 +1,51 @@
+qbs* FUNC_GETBYTES(qbs*_FUNC_GETBYTES_STRING___VALUE,int32*_FUNC_GETBYTES_LONG_NUMBEROFBYTES){
+qbs *tqbs;
+ptrszint tmp_long;
+int32 tmp_fileno;
+uint32 qbs_tmp_base=qbs_tmp_list_nexti;
+uint8 *tmp_mem_static_pointer=mem_static_pointer;
+uint32 tmp_cmem_sp=cmem_sp;
+#include "data383.txt"
+mem_lock *sf_mem_lock;
+new_mem_lock();
+sf_mem_lock=mem_lock_tmp;
+sf_mem_lock->type=3;
+if (is_error_pending()) goto exit_subfunc;
+do{
+if(!qbevent)break;evnt(25825,21088,"ide_methods.bas");}while(r);
+do{
+qbs_set(_FUNC_GETBYTES_STRING_VALUE,_FUNC_GETBYTES_STRING___VALUE);
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(25825,21090,"ide_methods.bas");}while(r);
+S_63277:;
+if ((qbs_cleanup(qbs_tmp_base,qbs_notequal(_FUNC_GETBYTES_STRING_VALUE,_FUNC_GETBYTES_STRING_PREVIOUSVALUE)))||is_error_pending()){
+if(qbevent){evnt(25825,21091,"ide_methods.bas");if(r)goto S_63277;}
+do{
+qbs_set(_FUNC_GETBYTES_STRING_PREVIOUSVALUE,_FUNC_GETBYTES_STRING_VALUE);
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(25825,21092,"ide_methods.bas");}while(r);
+do{
+*_FUNC_GETBYTES_LONG_GETBYTESPOSITION= 1 ;
+if(!qbevent)break;evnt(25825,21093,"ide_methods.bas");}while(r);
+}
+S_63281:;
+if ((-(*_FUNC_GETBYTES_LONG_NUMBEROFBYTES== 0 ))||is_error_pending()){
+if(qbevent){evnt(25825,21096,"ide_methods.bas");if(r)goto S_63281;}
+do{
+goto exit_subfunc;
+if(!qbevent)break;evnt(25825,21096,"ide_methods.bas");}while(r);
+}
+do{
+qbs_set(_FUNC_GETBYTES_STRING_GETBYTES,func_mid(_FUNC_GETBYTES_STRING_VALUE,*_FUNC_GETBYTES_LONG_GETBYTESPOSITION,*_FUNC_GETBYTES_LONG_NUMBEROFBYTES,0|1));
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(25825,21098,"ide_methods.bas");}while(r);
+do{
+*_FUNC_GETBYTES_LONG_GETBYTESPOSITION=*_FUNC_GETBYTES_LONG_GETBYTESPOSITION+*_FUNC_GETBYTES_LONG_NUMBEROFBYTES;
+if(!qbevent)break;evnt(25825,21099,"ide_methods.bas");}while(r);
+exit_subfunc:;
+free_mem_lock(sf_mem_lock);
+#include "free383.txt"
+if ((tmp_mem_static_pointer>=mem_static)&&(tmp_mem_static_pointer<=mem_static_limit)) mem_static_pointer=tmp_mem_static_pointer; else mem_static_pointer=mem_static;
+cmem_sp=tmp_cmem_sp;
+qbs_maketmp(_FUNC_GETBYTES_STRING_GETBYTES);return _FUNC_GETBYTES_STRING_GETBYTES;
+}

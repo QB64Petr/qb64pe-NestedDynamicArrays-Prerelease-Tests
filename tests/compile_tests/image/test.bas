@@ -1,0 +1,10 @@
+$CONSOLE
+$SCREENHIDE
+_DEST _CONSOLE
+CHDIR _STARTDIR$
+
+l = _LOADIMAGE("./foobar.bmp", 32)
+
+print l; _HEIGHT(l); _WIDTH(l);
+_FREEIMAGE l
+SYSTEM

@@ -1,0 +1,6 @@
+if(oldstr7109){
+if(oldstr7109->fixed)qbs_set(oldstr7109,_FUNC_SAVEFILE_STRING_IDEOPENFILE);
+qbs_free(_FUNC_SAVEFILE_STRING_IDEOPENFILE);
+}
+qbs_free(_FUNC_SAVEFILE_STRING_F);
+qbs_free(_FUNC_SAVEFILE_STRING_PATH);

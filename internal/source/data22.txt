@@ -1,0 +1,42 @@
+int32 pass2617;
+int8 pass2618;
+int16 pass2619;
+int16 pass2620;
+int16 pass2621;
+int16 pass2622;
+int16 pass2623;
+int16 pass2624;
+int16 pass2625;
+int16 pass2626;
+int16 pass2627;
+int16 pass2628;
+int16 pass2629;
+int16 pass2630;
+int16 pass2631;
+int16 pass2632;
+int16 pass2633;
+int16 pass2634;
+int32 *_SUB_CLOSEMAIN_LONG_MAININCBUF=NULL;
+if(_SUB_CLOSEMAIN_LONG_MAININCBUF==NULL){
+_SUB_CLOSEMAIN_LONG_MAININCBUF=(int32*)mem_static_malloc(4);
+*_SUB_CLOSEMAIN_LONG_MAININCBUF=0;
+}
+int32 *_SUB_CLOSEMAIN_LONG_I=NULL;
+if(_SUB_CLOSEMAIN_LONG_I==NULL){
+_SUB_CLOSEMAIN_LONG_I=(int32*)mem_static_malloc(4);
+*_SUB_CLOSEMAIN_LONG_I=0;
+}
+int64 fornext_value2636;
+int64 fornext_finalvalue2636;
+int64 fornext_step2636;
+uint8 fornext_step_negative2636;
+int16 pass2637;
+int16 pass2638;
+int16 pass2639;
+int16 pass2640;
+int16 pass2641;
+int16 pass2642;
+int16 pass2643;
+int16 pass2644;
+int16 pass2645;
+int16 pass2646;

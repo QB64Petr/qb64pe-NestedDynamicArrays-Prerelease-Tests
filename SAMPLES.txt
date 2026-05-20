@@ -1,0 +1,3 @@
+The collection of sample programs previously distributed with QB64, and common resource files, are now available at https://qb64phoenix.com/forum/showthread.php?tid=327
+
+More programs and useful code routines at https://qb64phoenix.com/forum/index.php

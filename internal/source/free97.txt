@@ -1,0 +1,4 @@
+if(oldstr3971){
+if(oldstr3971->fixed)qbs_set(oldstr3971,_SUB_PATH_SLASH_CORRECT_STRING_A);
+qbs_free(_SUB_PATH_SLASH_CORRECT_STRING_A);
+}

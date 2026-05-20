@@ -1,0 +1,40 @@
+
+HISTORY: <>
+ ACTIVE: unhandled
+
+HISTORY: <>
+ ACTIVE: main handler
+ CALLED: main handler
+
+HISTORY: < 1|>
+ ACTIVE: normal sub handler
+ CALLED: normal sub handler
+
+HISTORY: <>
+ ACTIVE: main handler
+ CALLED: main handler
+
+HISTORY: < 1|>
+ ACTIVE: recursive sub handler
+ CALLED: recursive sub handler
+
+HISTORY: < 3| 1|>
+ ACTIVE: recursive sub handler
+ CALLED: recursive sub handler
+
+HISTORY: < 3| 3| 1|>
+ ACTIVE: recursive sub handler
+ CALLED: recursive sub handler
+
+HISTORY: < 3| 1|>
+ ACTIVE: recursive sub handler
+
+HISTORY: < 1|>
+ ACTIVE: recursive sub handler
+
+HISTORY: <>
+ ACTIVE: main handler
+ CALLED: main handler
+
+HISTORY: <>
+ ACTIVE: unhandled

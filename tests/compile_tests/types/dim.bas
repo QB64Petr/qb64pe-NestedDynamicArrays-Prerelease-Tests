@@ -1,0 +1,48 @@
+$CONSOLE:ONLY
+
+DIM m AS _MEM
+
+DIM s AS STRING
+DIM s2 AS STRING * 8
+
+DIM b AS _BIT
+DIM b2 AS _UNSIGNED _BIT
+
+DIM bn AS _BIT * 7
+DIM bn2 AS _UNSIGNED _BIT * 7
+
+DIM byt AS _BYTE
+DIM byt2 AS _UNSIGNED _BYTE
+
+DIM i64 AS _INTEGER64
+DIM i64_2 AS _UNSIGNED _INTEGER64
+
+DIM o AS _OFFSET
+DIM o2 AS _UNSIGNED _OFFSET
+
+DIM i AS INTEGER
+DIM i2 AS _UNSIGNED INTEGER
+
+DIM l AS LONG
+DIM l2 AS _UNSIGNED LONG
+
+DIM si AS SINGLE
+DIM d AS DOUBLE
+DIM f AS _FLOAT
+
+' Just check a few of them
+s2 = "HI"
+b = -1
+bn = 20
+byt = 50
+i64 = 23456
+i = 70
+l = 80
+si = 2.2
+d = 2.4
+f = 2.8
+
+PRINT "TEST: "; s2; b; bn; byt; i64; i; l; si; d; f
+
+SYSTEM
+

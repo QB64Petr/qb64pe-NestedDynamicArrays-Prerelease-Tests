@@ -1,0 +1,6 @@
+$CONSOLE:ONLY
+
+print _DEVICES > 1;
+_DELAY 1
+
+SYSTEM

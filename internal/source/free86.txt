@@ -1,0 +1,5 @@
+if(oldstr3937){
+if(oldstr3937->fixed)qbs_set(oldstr3937,_FUNC_TFSTRINGTOBOOL_STRING_S);
+qbs_free(_FUNC_TFSTRINGTOBOOL_STRING_S);
+}
+qbs_free(_FUNC_TFSTRINGTOBOOL_STRING_S2);

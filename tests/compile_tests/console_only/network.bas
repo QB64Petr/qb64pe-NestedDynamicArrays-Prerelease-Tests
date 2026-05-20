@@ -1,0 +1,5 @@
+$CONSOLE:ONLY
+
+result = _OPENHOST("tcp/ip:12345")
+
+SYSTEM
